@@ -1,15 +1,15 @@
 title:              Pbs Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+email:              puneetbaviskar@gmail.com
+description:        A Blog 
+author:             Punit S. Baviskar
 baseurl:            "/pbsblog"
 url:                "punitbaviskar.me"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
+twitter_username:   puneetb22
+github_username:    
+facebook_username:  puneetb22
+instagram_username:  puneetb22
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
