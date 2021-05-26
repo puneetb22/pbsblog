@@ -1,9 +1,9 @@
-title:              Clean Blog
+title:              Pbs Blog
 email:              your-email@example.com
 description:        A Blog Theme by Start Bootstrap
 author:             Start Bootstrap
-baseurl:            ""
-url:                ""
+baseurl:            "/pbsblog"
+url:                "punitbaviskar.me"
 
 # Social Profiles
 twitter_username:   SBootstrap
