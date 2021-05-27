@@ -3,7 +3,7 @@
   <div class="container">
     <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      Menu
+      
       <i class="fa fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -25,6 +25,25 @@
           <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
         </li-->
       </ul>
+      <!-- Html Elements for Search -->
+<div id="search-container">
+  <input type="text" class="bar" id="search-input" placeholder="search...">
+  <div class="autocomplete-pos">
+  <ul class="search-results-ul card shadow border border-top-0" id="results-container"></ul>
+  </div>
+  </div> 
+  
+  <!-- Script pointing to search-script.js -->
+  <script src="/pbsblog/assets/search-script.js" type="text/javascript"></script>
+  
+  <!-- Configuration -->
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: 'search.json'
+  })
+  </script>
     </div>
   </div>
 </nav>
