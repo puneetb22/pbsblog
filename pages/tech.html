@@ -1,0 +1,10 @@
+---
+layout: page
+permalink: /tech/
+title: Tehnology
+background: 'https://source.unsplash.com/1600x900/?technology,IT'
+---
+
+{% for post in site.categories.Tech %}
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
