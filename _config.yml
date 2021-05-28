@@ -4,6 +4,8 @@ description:        Think. Believe. Write.
 author:             Punit S. Baviskar
 baseurl:            "/pbsblog"
 url:                "punitbaviskar.me"
+permalink: /:categories/:year/:month/:day/:title/
+
 
 # Social Profiles
 twitter_username:   puneetb22
