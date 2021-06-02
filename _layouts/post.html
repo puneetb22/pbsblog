@@ -41,7 +41,7 @@ layout: default
                 {% assign categories = page.categories %}
               {% endif %}
               {% for category in categories %}
-             <br> <a class="post-categories" href="{{site.baseurl}}/categories/#{{category|slugize}}">Category: {{category}}</a>
+             <br> <a class="post-categories" href="{{site.baseurl}}/{{category|slugize}}">Category: {{category}}</a>
               {% unless forloop.last %}&nbsp;{% endunless %}
               {% endfor %}
             </div>
